@@ -1,9 +1,28 @@
 aid: protege
 name: Protege
-description: Protege is a company surfaced as a portfolio company of bloomberg-beta, crv and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Protege (Protege Health Inc.) is a two-sided data platform that connects AI model builders with
+  high-quality, real-world proprietary datasets for pre-training, post-training, fine-tuning, and
+  evaluation. It curates data from hundreds of sources across healthcare, video, audio and speech,
+  motion capture, architecture/engineering/construction, manufacturing, energy, finance, and
+  agriculture, handling licensing and rights protection while fairly compensating data rights
+  holders. Protege also operates DataLab, a research team focused on data-for-AI challenges. The
+  company is backed by Andreessen Horowitz, CRV, Bloomberg Beta, Footwork, Flex Capital, SV Angel,
+  Liquid, and Shaper Capital. As of this enrichment pass Protege publishes no public API, developer
+  portal, or SDKs; this profile captures its identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/protege/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d5a44498.delivery.rocketcdn.me/wp-content/uploads/2026/03/Home-1200x630-c-default.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Data
+- Training Data
+- Datasets
+- Data Marketplace
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.withprotege.ai/
+- type: About
+  url: https://www.withprotege.ai/about
+- type: Blog
+  url: https://www.withprotege.ai/news
+- type: Support
+  url: https://www.withprotege.ai/contact
+- type: TermsOfService
+  url: https://www.withprotege.ai/media-terms-of-service
+- type: PrivacyPolicy
+  url: https://www.withprotege.ai/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/withprotege
+- type: DomainSecurity
+  url: security/protege-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
