@@ -11,6 +11,17 @@ description: >-
   Liquid, and Shaper Capital. As of this enrichment pass Protege publishes no public API, developer
   portal, or SDKs; this profile captures its identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/protege/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
