@@ -2,11 +2,18 @@
   "repo": "protege",
   "feeds": [
     {
-      "source": "https://www.withprotege.ai/about",
-      "feed_url": "https://www.withprotege.ai/about/feed/",
+      "source": "https://www.withprotege.ai/news",
+      "feed_url": "https://www.withprotege.ai/news",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
+    },
+    {
+      "source": "https://withprotege.ai/feed",
+      "feed_url": "https://withprotege.ai/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.withprotege.ai/about/feed/",
@@ -17,5 +24,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
